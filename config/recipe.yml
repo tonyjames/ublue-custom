@@ -26,6 +26,12 @@ modules:
     install:
       # - micro
       # - starship
+      - NetworkManager-openvpn-gnome
+      - gtk-v4l
+      - igt-gpu-tools
+      - krb5-workstation
+      - neofetch
+      - xclip
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
